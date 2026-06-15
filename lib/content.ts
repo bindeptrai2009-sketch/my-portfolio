@@ -1,5 +1,9 @@
 export const blogPosts = [
-  { slug: "bai-viet-1", title: "The Month I Realized Motivation Was a Terrible Strategy", date: "2026-06-15", content: "For the time I thought motivation was the key to getting things done.
+  {
+    slug: "the-month-i-realized-motivation-was-a-terrible-strategy",
+    title: "The Month I Realized Motivation Was a Terrible Strategy",
+    date: "2026-06-15",
+    content: `For the time I thought motivation was the key to getting things done.
 
 Whenever I fell behind on schoolwork spent much time on my phone or failed to stick to a plan I always thought that I just was not motivated enough. This seemed like an explanation. All people who got a lot done looked motivated. Successful students looked motivated. Entrepreneurs in YouTube videos always talked about motivation as if it were some kind of superpower.
 
@@ -103,56 +107,113 @@ Because if there is one thing I learned from watching my habits it is this:
 
 Motivation may help you start.
 
-Understanding is what helps you continue." },
-  { slug: "bai-viet-2", title: "The Month I Realized Motivation Was a Terrible Strategy", date: "2026-06-16", content: "For most of my life I thought motivation was the secret to every success story.
+Understanding is what helps you continue.`
+  },
+  {
+    slug: "the-month-i-realized-motivation-was-a-terrible-strategy-part-2",
+    title: "The Month I Realized Motivation Was a Terrible Strategy (Part 2)",
+    date: "2026-06-16",
+    content: `For most of my life I thought motivation was the secret to every success story.
+
 Whenever I saw a student getting grades, an athlete training every day or a young entrepreneur building something impressive I assumed they had found a level of motivation that I hadn't. It seemed like an explanation. If I wasn't making progress I just needed motivation. If I kept procrastinating I needed motivation. If I struggled to maintain habits motivation was probably the missing piece.
+
 Looking back I think many students fall into the trap.
+
 We treat motivation like a resource that successful people have in abundance and everyone else lacks. We watch videos read productivity advice and create plans hoping for a burst of motivation to transform us.
+
 I did the same.
+
 At the start of a school term I decided to change my routine. I made a study schedule planned workouts organized assignments and even calculated time for each subject. It felt amazing. Everything was color-coded. Every hour had a purpose. For a moment I thought I had finally figured things out.
+
 Then reality set in.
+
 The first few days went well. I followed the schedule, completed assignments on time and felt productive.. As weeks passed problems appeared. A difficult project took longer than expected. A test required preparation. One late night turned into several. Slowly my perfect schedule became less perfect.
+
 Eventually I abandoned it.
+
 What frustrated me wasn't the plans failure. It was that this wasn't the time it had happened. I had gone through the cycle before. I became motivated, goals, performed well for a short time and then lost momentum. Every time I blamed myself. I thought I lacked discipline. I thought I wasn't working enough. Importantly I thought I wasn't motivated enough.
+
 After repeating the same mistake I started asking a different question.
+
 Of wondering why I couldn't stay motivated I wondered if motivation was the problem.
+
 That change in perspective changed everything.
+
 I started paying attention to what I did not how I felt. I noticed when I worked well when I struggled and what affected my productivity.
+
 The patterns were clear.
+
 On days when I slept well concentrating was easier. On days when I started working I accomplished more. When I divided an assignment into smaller tasks I procrastinated less.. Most interestingly my productivity often had little to do with how motivated I felt.
+
 Some of my productive days started with zero motivation.
+
 I sat down started with a task and built momentum. By the time I was fully engaged motivation appeared naturally. It wasn't the cause of progress. It was the result of progress.
+
 That realization challenged a held belief.
+
 I assumed the sequence was motivation first action second.
+
 What I discovered was often the opposite: action motivation second.
+
 Once I noticed this pattern I started seeing it. Athletes don't train every day because they wake up excited. Musicians don't practice when inspiration strikes. Entrepreneurs don't build projects on days when they feel confident.
+
 If they did little would get done.
+
 Instead they develop systems. They create routines. They rely on habits that continue even when motivation disappears.
+
 That idea fascinated me because it felt counterintuitive. Society celebrates motivation. It appears in speeches, videos and social media posts. We love stories about people suddenly finding the drive to transform their lives.
+
 What we talk about less is consistency.
+
 Consistency isn't dramatic. It doesn't make for headlines. It involves showing up even when work feels difficult, boring or inconvenient.
+
 Yet when I looked at people I admired consistency seemed to matter more than motivation.
+
 Around the time I became interested in Data Science. One reason was that I enjoyed discovering patterns hidden beneath assumptions. Data science is about understanding reality accurately. It asks a powerful question: what is actually happening?
+
 When I applied that question to my habits I learned something
+
 My assumptions about productivity were wrong.
+
 I assumed motivation created action. My observations suggested that action often created motivation.
+
 I assumed successful people felt inspired often. In reality many developed systems that worked regardless of how they felt.
+
 I assumed discipline was about forcing myself to work. Increasingly I realized it was about making good decisions easier and bad decisions harder.
+
 These discoveries weren't groundbreaking. They changed how I approached my goals.
+
 Importantly they taught me something about learning.
+
 Many people search for answers when they encounter a problem. I used to do the same.. Answers can be misleading because they encourage us to stop asking questions. Patterns are different. Patterns invite curiosity. They encourage us to investigate why things happen and whether our assumptions are correct.
+
 That mindset is why I find Data Science appealing. It combines logic with curiosity. It rewards observation rather than quick conclusions. Importantly it reminds us that reality is often more complicated, than our first explanation.
+
 Today I still have days. I still procrastinate. I still create plans that don't work well as I expect. The difference is that I no longer interpret those moments as evidence that I lack motivation.
+
 Instead I treat them as information.
+
 Something isn't working.
+
 A pattern exists.
+
 If I pay attention closely enough I can probably learn from it.
+
 The month I realized motivation was a strategy didn't make me instantly more productive. It didn't transform me into a student or solve all my problems.
+
 What it did give me was a question to ask.
+
 Of asking, "How can I become more motivated?"
+
 I started asking, "What pattern am I missing?"
-far that question has been far more useful." },
-  { slug: "bai-viet-3", title: "My First Failed Survey and What It Taught Me About Data", date: "2026-06-17", content: "I used to think that numbers always tell the truth.
+
+far that question has been far more useful.`
+  },
+  {
+    slug: "my-first-failed-survey-and-what-it-taught-me-about-data",
+    title: "My First Failed Survey and What It Taught Me About Data",
+    date: "2026-06-17",
+    content: `I used to think that numbers always tell the truth.
 
 It seems obvious now. I did not realize this for a long time.
 
@@ -328,8 +389,13 @@ What it did change was the way I think.
 
 Sometimes especially when you are still learning that is the most valuable outcome of all.
 
-The survey failed,. The lesson did not." },
-  { slug: "bai-viet-4", title: "Why Most School Projects Feel Like Startups", date: "2026-06-18", content: "If someone had told me a years ago that school projects and startups have a lot in common I probably would have laughed.
+The survey failed,. The lesson did not.`
+  },
+  {
+    slug: "why-most-school-projects-feel-like-startups",
+    title: "Why Most School Projects Feel Like Startups",
+    date: "2026-06-18",
+    content: `If someone had told me a years ago that school projects and startups have a lot in common I probably would have laughed.
 
 One involves students trying to finish assignments before a deadline. The other involves entrepreneurs building companies. They raise money. Take enormous risks. On the surface they seem unrelated.
 
@@ -501,8 +567,13 @@ Because if school projects have taught me anything it's that success isn't about
 
 It's about helping a group of people move in the direction.
 
-That challenge is much closer, to entrepreneurship than I ever expected." },
-    { slug: "bai-viet-5", title: "The Problem with Being Busy", date: "2026-06-19", content: "One of the common questions students ask each other is really simple: "How busy are you?" I hear this question every day. It comes up before an exam during a project deadline or just in conversation. What I find interesting is that the answer is always the same: "I'm really busy."
+That challenge is much closer, to entrepreneurship than I ever expected.`
+  },
+  {
+    slug: "the-problem-with-being-busy",
+    title: "The Problem with Being \"Busy\"",
+    date: "2026-06-19",
+    content: `One of the common questions students ask each other is really simple: "How busy are you?" I hear this question every day. It comes up before an exam during a project deadline or just in conversation. What I find interesting is that the answer is always the same: "I'm really busy."
 
 For a time I gave that answer too.. To be fair it was not entirely wrong. Between classes, homework, extracurricular activities, exams, personal goals and everything else that comes with being a school student there were plenty of days when my schedule genuinely felt overwhelming.
 
@@ -530,8 +601,12 @@ Ironically deep work can feel less productive in the moment because visible prog
 
 The challenge is that our brains often prefer quantity because quantity is easier to measure. It is easier to count hours than impact. It is easier to count tasks than outcomes. It is easier to count activity than progress. That is why I have become increasingly cautious whenever I hear myself say, "I'm busy." Sometimes it is true. Sometimes it is simply an explanation. Now whenever I feel overwhelmed I try asking a question. Of asking, "How much am I doing?" I ask, "How much of what I'm doing actually matters?"
 
-The answer is not always comfortable.. It is usually useful. As students we are often encouraged to do more. More classes. More activities. More projects. More responsibilities. There is value in ambition. There is value in work.. There is also value in focus. Because, at the end of the day being busy is not the goal. Learning is the goal. Growth is the goal. Impact is the goal.. Those things do not always come from doing more. Sometimes they come from choosing." },
-      { slug: "bai-viet-6", title: "What Running a Tiny Business Taught Me About People", date: "2026-06-20", content: "When people hear the word "business" they usually think of something. They think of offices, lots of money big teams and companies with thousands of customers. I used to think that way. I thought that being an entrepreneur was something that only grownups could do people with lots of experience and connections.
+The answer is not always comfortable.. It is usually useful. As students we are often encouraged to do more. More classes. More activities. More projects. More responsibilities. There is value in ambition. There is value in work.. There is also value in focus. Because, at the end of the day being busy is not the goal. Learning is the goal. Growth is the goal. Impact is the goal.. Those things do not always come from doing more. Sometimes they come from choosing.`
+,{
+    slug: "what-running-a-tiny-business-taught-me-about-people",
+    title: "What Running a Tiny Business Taught Me About People",
+    date: "2026-06-20",
+    content: `When people hear the word "business" they usually think of something. They think of offices, lots of money big teams and companies with thousands of customers. I used to think that way. I thought that being an entrepreneur was something that only grownups could do people with lots of experience and connections.
 
 Then I tried to make some money on my own.
 
@@ -662,8 +737,13 @@ Trends will change.
 
 People will always be interesting.
 
-What I learned from my first experience is that the best data you can get often comes from just talking to someone." },
-        { slug: "bai-viet-7", title: "The Most Valuable Data Isn't Always Numerical", date: "2026-06-21", content: "When people hear the phrase Data Science they usually think about numbers. Data Science is something that people often associate with numbers.
+What I learned from my first experience is that the best data you can get often comes from just talking to someone.`
+  },
+  {
+    slug: "the-most-valuable-data-isnt-always-numerical",
+    title: "The Most Valuable Data Isn't Always Numerical",
+    date: "2026-06-21",
+    content: `When people hear the phrase Data Science they usually think about numbers. Data Science is something that people often associate with numbers.
 
 Spreadsheets filled with thousands of rows graphs showing trends over time statistical models, algorithms, dashboards, percentages and predictions are all things that people think of when they hear Data Science.
 
@@ -789,7 +869,6 @@ Not because they spend all day conducting interviews. Because they recognize tha
 
 Numbers do not appear magically for Data Science.
 
-
 People generate them for Data Science.
 
 People interpret them for Data Science.
@@ -864,7 +943,6 @@ It requires understanding not what the data reveals, but also what it cannot rev
 
 One lesson I have learned repeatedly is that people are often more complicated than the categories we create for them for Data Science.
 
-
 A survey response cannot fully capture a persons motivations for Data Science.
 
 A chart cannot fully explain a community for Data Science.
@@ -905,8 +983,13 @@ Because behind every dataset every graph and every model lies something more int
 
 Human stories for Data Science.
 
-Sometimes those stories are the most valuable data of all, for Data Science." },
-          { slug: "bai-viet-8", title: "A Story About Assumptions, Bias, and Bad Decisions", date: "2026-06-22", content: "One of the uncomfortable lessons I have learned is that being smart does not protect you from making bad decisions.
+Sometimes those stories are the most valuable data of all, for Data Science.`
+  },
+  {
+    slug: "a-story-about-assumptions-bias-and-bad-decisions",
+    title: "A Story About Assumptions, Bias, and Bad Decisions",
+    date: "2026-06-22",
+    content: `One of the uncomfortable lessons I have learned is that being smart does not protect you from making bad decisions.
 In fact sometimes it can make bad decisions more dangerous.
 Not because smart people make mistakes but because they become very good at defending their mistakes. They can create explanations. They can find evidence that supports their beliefs. They can build arguments for conclusions that were wrong from the beginning.
 I have caught myself doing this times than I would like to admit.
@@ -1007,8 +1090,13 @@ No lives were changed.
 The lesson remained valuable.
 Because it reminded me that the greatest obstacle, to understanding reality isn't always a lack of information.
 Sometimes it's the stories we tell ourselves before we have information in the first place.
-Learning to recognize those stories may be one of the most important skills I ever develop." },
-            { slug: "bai-viet-9", title: "If I Could Solve One Problem in Education", date: "2026-06-23", content: "If someone asked me what problem I would solve if I had resources my answer would probably change every few months.
+Learning to recognize those stories may be one of the most important skills I ever develop.`
+  },
+  {
+    slug: "if-i-could-solve-one-problem-in-education",
+    title: "If I Could Solve One Problem in Education",
+    date: "2026-06-23",
+    content: `If someone asked me what problem I would solve if I had resources my answer would probably change every few months.
 
 Some days I think about climate change. Days I think about healthcare, poverty or access to technology. The world has important challenges and its hard to say that one matters more than the others.
 
@@ -1074,8 +1162,13 @@ The first question focuses on performance. The second focuses on understanding..
 
 If I could solve one problem in education it wouldn't be about making school easier. It would be about making exploration more accessible.
 
-Because in every classroom there are students who haven't yet discovered what fascinates them. Helping them find it might be one of the valuable investments we can make. Not, for their future careers but for the lives they eventually choose to build." },
-              { slug: "bai-viet-10", title: "Why I Want to Study Data Science and Entrepreneurship", date: "2026-06-24", content: "If you had asked me what I wanted to study in university a years ago I probably would not have had a clear answer.
+Because in every classroom there are students who haven't yet discovered what fascinates them. Helping them find it might be one of the valuable investments we can make. Not, for their future careers but for the lives they eventually choose to build.`
+  },
+  {
+    slug: "why-i-want-to-study-data-science-and-entrepreneurship",
+    title: "Why I Want to Study Data Science and Entrepreneurship",
+    date: "2026-06-24",
+    content: `If you had asked me what I wanted to study in university a years ago I probably would not have had a clear answer.
 
 I was like students who knew that certain subjects interested me more than others but I did not yet understand how those interests connected to the kind of impact I wanted to create.
 
@@ -1159,63 +1252,8 @@ No prediction is. Data Science and Entrepreneurship help me understand the limit
 
 No business idea comes with certainty and Data Science and Entrepreneurship help me navigate the uncertainty of business ideas.
 
-The ability to move forward despite information is a skill I admire deeply and Data Science and Entrepreneurship help me develop that skill.
-
-The more I learn about both Data Science and Entrepreneurship the more I see them as disciplines and I am drawn to them because of that.
-
-Data Science helps us understand reality clearly and Entrepreneurship helps us change reality intentionally and together they create a powerful framework for solving problems.
-
-One helps answer the question "What is happening?" and the other helps answer the question "What can we do about it?". Data Science and Entrepreneurship provide the answers to those questions.
-
-Together they create a framework for solving problems and that framework aligns closely with the future I hope to build.
-
-I do not yet know what form my career will take but I know that I want to study Data Science and Entrepreneurship.
-
-I think it would be unrealistic to pretend and Data Science and Entrepreneurship help me understand the uncertainty of the future.
-
-The world changes quickly and there is still so much for me to learn about Data Science and Entrepreneurship.
-
-What I do know is the type of work that excites me: investigating problems, identifying patterns, understanding why people make the decisions they make and turning ideas into action and Data Science and Entrepreneurship provide the tools for that work.
-
-Another reason I feel drawn to this path is that many of the challenges facing society today exist at the intersection of data, technology and human behavior and Data Science and Entrepreneurship help me understand those challenges.
-
-Educational systems need insights and Data Science and Entrepreneurship provide those insights.
-
-Businesses need decision-making and Data Science and Entrepreneurship help with decision-making.
-
-Communities need effective solutions and Data Science and Entrepreneurship provide the tools for creating those solutions.
-
-Organizations need people who can combine thinking with creativity and empathy and Data Science and Entrepreneurship help people develop those skills.
-
-Technical skills alone are not enough. Data Science and Entrepreneurship provide more than just technical skills.
-
-Business knowledge alone is not enough. Data Science and Entrepreneurship provide more than just business knowledge.
-
-Meaningful impact often requires both and Data Science and Entrepreneurship provide the tools for creating impact.
-
-That realization has shaped how I approach learning. I increasingly see subjects as tools that can work together like Mathematics, Technology, Entrepreneurship and Communication and Data Science and Entrepreneurship help me understand how those subjects work together.
-
-The exciting opportunities often emerge where those disciplines overlap and Data Science and Entrepreneurship help me find those opportunities.
-
-As I prepare for university I do not view education as a pathway toward a career but as an opportunity to expand my ability to contribute and Data Science and Entrepreneurship provide the tools for contributing.
-
-The more I learn the more problems I can understand and Data Science and Entrepreneurship help me understand those problems.
-
-The problems I understand the more effectively I can help solve them and Data Science and Entrepreneurship provide the tools for solving those problems.
-
-That is ultimately why I want to study Data Science and Entrepreneurship because they align with the way I see the world a world filled with problems, hidden patterns and opportunities for improvement and Data Science and Entrepreneurship help me navigate that world.
-
-A world where curiosity matters and Data Science and Entrepreneurship help me develop curiosity.
-
-A world where understanding matters and Data Science and Entrepreneurship provide understanding.
-
-Most importantly a world where the best ideas are only valuable when they create positive change for other people and Data Science and Entrepreneurship help me create positive change.
-
-I do not have all the answers yet. I am willing to learn and Data Science and Entrepreneurship provide the tools for learning.
-
-Honestly I do not think I am supposed to have all the answers. Data Science and Entrepreneurship help me navigate the uncertainty.
-
-What I do have is curiosity, a willingness to learn and a growing belief that understanding and action should go hand in hand and Data Science and Entrepreneurship provide the tools for understanding and action.
-
-For now that's reason to begin and I am excited to start my journey, with Data Science and Entrepreneurship." },
-            
+The ability to move forward despite information is a skill I admire deeply and Data Science and Entrepreneurship.`
+  }
+  git add .
+git commit -m "Them 10 bai blog cua series"
+git push
