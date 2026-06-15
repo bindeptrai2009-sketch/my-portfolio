@@ -1254,6 +1254,3 @@ No business idea comes with certainty and Data Science and Entrepreneurship help
 
 The ability to move forward despite information is a skill I admire deeply and Data Science and Entrepreneurship.`
   }
-  git add .
-git commit -m "Them 10 bai blog cua series"
-git push
