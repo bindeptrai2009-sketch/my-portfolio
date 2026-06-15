@@ -14,7 +14,7 @@ export default function About() {
       <section>
         <h1 className="font-heading text-4xl font-bold mb-6">Who I Am</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
-          I am a student researcher, writer, and builder. I spend my time trying to understand the systems that govern our daily lives—whether that's analyzing how students manage time through data, or figuring out why some school projects feel exactly like failing startups.
+          I am a student researcher, writer, and builder. I spend my time trying to understand the systems that govern our daily lives - whether that's analyzing how students manage time through data, or figuring out why some school projects feel exactly like failing startups.
         </p>
       </section>
 

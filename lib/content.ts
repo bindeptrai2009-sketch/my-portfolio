@@ -602,7 +602,8 @@ Ironically deep work can feel less productive in the moment because visible prog
 The challenge is that our brains often prefer quantity because quantity is easier to measure. It is easier to count hours than impact. It is easier to count tasks than outcomes. It is easier to count activity than progress. That is why I have become increasingly cautious whenever I hear myself say, "I'm busy." Sometimes it is true. Sometimes it is simply an explanation. Now whenever I feel overwhelmed I try asking a question. Of asking, "How much am I doing?" I ask, "How much of what I'm doing actually matters?"
 
 The answer is not always comfortable.. It is usually useful. As students we are often encouraged to do more. More classes. More activities. More projects. More responsibilities. There is value in ambition. There is value in work.. There is also value in focus. Because, at the end of the day being busy is not the goal. Learning is the goal. Growth is the goal. Impact is the goal.. Those things do not always come from doing more. Sometimes they come from choosing.`
-,{
+},
+{
     slug: "what-running-a-tiny-business-taught-me-about-people",
     title: "What Running a Tiny Business Taught Me About People",
     date: "2026-06-20",
@@ -1254,3 +1255,4 @@ No business idea comes with certainty and Data Science and Entrepreneurship help
 
 The ability to move forward despite information is a skill I admire deeply and Data Science and Entrepreneurship.`
   }
+  ];
