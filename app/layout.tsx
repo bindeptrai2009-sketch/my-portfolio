@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // Dùng font Inter của Google
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import Navbar from "@/components/Navbar";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 
-// Khởi tạo font chữ
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Portfolio của tôi",
-  description: "Trang web cá nhân của tôi",
+  title: "Bindeprai2009 Portfolio",
+  description: "Minimalist Developer Portfolio and Blog",
 };
 
 export default function RootLayout({
@@ -18,19 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi" suppressHydrationWarning>
-      <body className={`${inter.className} bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 antialiased min-h-screen flex flex-col`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Navbar />
-          <main className="flex-grow max-w-3xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
-            {children}
-          </main>
-        </ThemeProvider>
+    <html lang="en" className={inter.variable}>
+      <body className="antialiased min-h-screen flex flex-col">
+        <SiteHeader />
+        <main className="flex-1 container mx-auto px-4 md:px-6 py-8 md:py-12">
+          {children}
+        </main>
+        <SiteFooter />
       </body>
     </html>
   );

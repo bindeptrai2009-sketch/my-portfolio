@@ -1,54 +1,93 @@
-"use client";
-import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 export default function Home() {
-  const container = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { staggerChildren: 0.15 } }
-  };
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
-  } as const;
+  // --- Placeholder dữ liệu dự án (bạn thay bằng dự án thật sau này) ---
+  const projects = [
+    {
+      title: "Blog Series Website",
+      description: "My personal blog with 10+ posts on technology.",
+      tags: ["Next.js", "Tailwind", "Vercel"],
+      href: "/blog",
+    },
+    {
+      title: "Interactive UI Library",
+      description: "A small collection of reusable React components.",
+      tags: ["React", "shadcn/ui", "DaisyUI"],
+      href: "#",
+    },
+    {
+      title: "AI Chat Assistant",
+      description: "A chat application powered by OpenAI models.",
+      tags: ["Python", "Streamlit", "GPT-4"],
+      href: "#",
+    },
+  ];
 
   return (
-    <motion.div variants={container} initial="hidden" animate="show" className="space-y-24">
-      {/* Hero Section */}
-      <section className="mt-12 md:mt-24">
-        <motion.h1 variants={item} className="font-heading text-4xl md:text-6xl font-bold tracking-tight text-navy-900 dark:text-gray-100 leading-tight max-w-3xl">
-          Curiosity, Data, <br className="hidden md:block"/> and Building Things.
-        </motion.h1>
-        <motion.p variants={item} className="mt-6 text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed">
-          I believe meaningful innovation begins with understanding people. Through data, writing, and small entrepreneurial experiments, I explore how ideas become impact.
-        </motion.p>
-        <motion.div variants={item} className="mt-10 flex items-center gap-4">
-          <Link href="/blog" className="px-6 py-3 bg-navy-900 text-white rounded-lg font-medium hover:bg-navy-800 transition flex items-center gap-2">
-            Read My Blog <ArrowRight size={16} />
-          </Link>
-          <Link href="/projects" className="px-6 py-3 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white rounded-lg font-medium hover:bg-gray-200 dark:hover:bg-gray-800 transition">
-            View Projects
-          </Link>
-        </motion.div>
+    <div className="flex flex-col gap-12 md:gap-16">
+      {/* 🚀 Hero Section */}
+      <section className="text-center py-12 md:py-16">
+        <div className="max-w-2xl mx-auto flex flex-col gap-6">
+          <h1 className="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight">
+            Hi, I'm <span className="text-primary">Bindeprai2009</span>.
+          </h1>
+          <p className="text-xl md:text-2xl text-muted-foreground">
+            I build modern, high-performance web applications. Welcome to my personal portfolio and blog.
+          </p>
+          <div className="flex flex-wrap gap-4 items-center justify-center pt-2">
+            <Button size="lg" asChild>
+              <Link href="/blog">View Blog Posts</Link>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
+              <Link href="#">Contact Me</Link>
+            </Button>
+          </div>
+        </div>
       </section>
 
-      {/* Featured Blog Section Placeholder */}
-      <motion.section variants={item}>
-        <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-800 pb-4 mb-8">
-          <h2 className="font-heading text-2xl font-semibold">Latest Writing</h2>
-          <Link href="/blog" className="text-sm text-gray-500 hover:text-black dark:hover:text-white">View all →</Link>
+      {/* 💼 Projects Section */}
+      <section className="flex flex-col gap-10">
+        <div className="text-center">
+          <h2 className="font-heading font-bold text-3xl md:text-4xl tracking-tight">
+            Featured Projects
+          </h2>
+          <p className="text-lg text-muted-foreground pt-3 max-w-2xl mx-auto">
+            A small selection of things I've been working on.
+          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1 */}
-          <div className="group cursor-pointer">
-            <p className="text-sm text-gray-500 mb-2">Data Science • 5 min read</p>
-            <h3 className="font-heading text-xl font-medium group-hover:underline decoration-navy-900 underline-offset-4">The Month I Realized Motivation Was a Terrible Strategy</h3>
-            <p className="mt-2 text-gray-600 dark:text-gray-400 text-sm line-clamp-3">For a long time I thought motivation was the key to getting things done. Whenever I fell behind...</p>
-          </div>
-          {/* Add more cards dynamically */}
+        
+        {/* Project Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 pt-4">
+          {projects.map((project, index) => (
+            <Link href={project.href} key={index} className="group">
+              <Card className="h-full transition-all group-hover:shadow-lg group-hover:-translate-y-1">
+                <CardHeader>
+                  <div className="flex flex-wrap gap-2 pb-2">
+                    {project.tags.map(tag => (
+                      <span key={tag} className="text-xs font-mono font-medium text-primary-foreground bg-primary/90 px-2.5 py-1 rounded-full">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <CardTitle className="font-bold text-2xl group-hover:text-primary transition-colors">
+                    {project.title}
+                  </CardTitle>
+                  <CardDescription className="text-muted-foreground pt-1">
+                    {project.description}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm font-medium text-primary transition-colors flex items-center gap-1.5 group-hover:gap-2">
+                    Learn more →
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
+          ))}
         </div>
-      </motion.section>
-    </motion.div>
+      </section>
+    </div>
   );
 }
