@@ -10,7 +10,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   return (
     <article className="prose dark:prose-invert">
       <h1>{post.title}</h1>
-      <p>{post.content}</p>
+      <p className="whitespace-pre-wrap">{post.content}</p>
     </article>
   );
 }
