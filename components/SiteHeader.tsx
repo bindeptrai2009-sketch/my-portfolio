@@ -10,8 +10,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur shadow-sm">
       <div className="container mx-auto flex h-16 items-center px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-bold text-primary text-xl">
-          <span className="hidden sm:inline">Bindeprai2009</span>
-          <span className="sm:hidden">BP</span>
+          <span className="hidden sm:inline">Trung Kien</span>
+          <span className="sm:hidden">TK</span>
         </Link>
         <nav className="flex items-center gap-6 text-sm ml-auto font-medium">
           {navLinks.map((link) => (

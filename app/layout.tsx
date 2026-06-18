@@ -7,7 +7,7 @@ import { SiteFooter } from "../components/SiteFooter";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Bindeprai2009 Portfolio",
+  title: "Trung Kien Portfolio",
   description: "Minimalist Developer Portfolio and Blog",
 };
 

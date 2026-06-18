@@ -31,10 +31,10 @@ export default function Home() {
       <section className="text-center py-12 md:py-16">
         <div className="max-w-2xl mx-auto flex flex-col gap-6">
           <h1 className="font-heading font-extrabold text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight">
-            Hi, I'm <span className="text-primary">Bindeprai2009</span>.
+            Hi, I'm <span className="text-primary">Trung Kien</span>.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground">
-            I build modern, high-performance web applications. Welcome to my personal portfolio and blog.
+            This is my digital notebook - a collection of essays, projects, and observations about data, people, and building things.
           </p>
           <div className="flex flex-wrap gap-4 items-center justify-center pt-2">
             <Button size="lg" asChild>
