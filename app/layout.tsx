@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className="max-w-3xl mx-auto p-8 antialiased bg-background text-foreground">
-  {/* Các component khác như <SiteHeader /> hay {children} */}
+  {children}
 </body>
     </html>
   );
