@@ -1,6 +1,6 @@
 import { blogPosts } from "../../../lib/content";
 import { notFound } from "next/navigation";
-import { Badge } from "../../../components/ui/badge";
+import { Badge } from "@/components/ui/badge";
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
