@@ -16,9 +16,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           {post.title}
         </h1>
         <div className="flex items-center gap-4 text-sm text-muted-foreground justify-center">
-          <Badge variant="secondary" className="px-3 py-1 font-medium rounded-full">
-            Blog Post
-          </Badge>
+<Badge className="px-3 py-1 font-medium rounded-full bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200">
+  Blog Post
+</Badge>
           <time dateTime="2026-06-17">June 17, 2026</time>
           <span>• 5 min read</span>
         </div>
