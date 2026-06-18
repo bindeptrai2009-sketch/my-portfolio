@@ -18,13 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="antialiased min-h-screen flex flex-col">
-        <SiteHeader />
-        <main className="flex-1 container mx-auto px-4 md:px-6 py-8 md:py-12">
-          {children}
-        </main>
-        <SiteFooter />
-      </body>
+      <body className="max-w-3xl mx-auto p-8 antialiased bg-background text-foreground">
+  {/* Các component khác như <SiteHeader /> hay {children} */}
+</body>
     </html>
   );
 }
